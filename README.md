@@ -1,6 +1,6 @@
 # xHi-Reader (Backend)
 
-The backend for managing eBooks, tracking reading progress, and syncing library across devices for xHi-Reader.
+A Dockerized FastAPI backend for xHi-Reader that parses uploaded eBooks, extracts metadata, and securely stores library data.
 
 ---
 
