@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: epub-backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    volumes:
+      - ./epub_data:/data
+    env_file:
+      - .env
+    restart: unless-stopped
+
+  db:
+    image: postgres:15-alpine
+    container_name: epub-db
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+volumes:
+  postgres_data:

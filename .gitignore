@@ -1,0 +1,24 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environment (Don't upload libraries) ---
+venv/
+.venv/
+env/
+
+# --- Environment Variables (CRITICAL SECURITY) ---
+.env
+.env.local
+
+# --- Uploaded Files (Don't upload local test books) ---
+uploads/
+
+# --- Editor Junk ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+epub_data/

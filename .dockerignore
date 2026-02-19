@@ -1,0 +1,9 @@
+venv/
+env/
+.venv/
+
+epub_data/
+
+__pycache__/
+*.pyc
+.env
