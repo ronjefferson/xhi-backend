@@ -14,11 +14,11 @@ A Dockerized FastAPI backend for xHi-Reader that parses uploaded eBooks, extract
 
 ## Tech Stack
 
-- **Language:** Python  
-- **Framework:** FastAPI  
-- **Database:** PostgreSQL  
-- **Containerization:** Docker & Docker Compose  
-- **ORM:** SQLAlchemy  
+* [![Python][Python.org]][Python-url]
+* [![FastAPI][FastAPI.io]][FastAPI-url]
+* [![PostgreSQL][PostgreSQL.org]][PostgreSQL-url]
+* [![Docker][Docker.com]][Docker-url]
+* [![SQLAlchemy][SQLAlchemy.org]][SQLAlchemy-url]
 
 ---
 
@@ -65,3 +65,18 @@ Once the containers are running, access the interactive API documentation at:
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+[Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
+
+[FastAPI.io]: https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white
+[FastAPI-url]: https://fastapi.tiangolo.com/
+
+[PostgreSQL.org]: https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white
+[PostgreSQL-url]: https://www.postgresql.org/
+
+[Docker.com]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://www.docker.com/
+
+[SQLAlchemy.org]: https://img.shields.io/badge/SQLAlchemy-000000?style=for-the-badge&logo=sqlalchemy&logoColor=white
+[SQLAlchemy-url]: https://www.sqlalchemy.org/
